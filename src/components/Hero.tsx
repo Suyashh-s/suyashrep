@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         <p className="text-xl md:text-2xl font-rajdhani text-gray-300 mb-8 animate-float">
           Crafting intelligent vision through code.
           <br />
-          <span className="font-medium text-neon-cyan">ML Enthusiast | CV Developer</span>
+          <span className="font-medium text-neon-cyan">Backend Developer | ML Enthusiast | CV Developer</span>
         </p>
         
         {/* CTA Buttons */}
