@@ -61,12 +61,6 @@ const Hero: React.FC = () => {
             <Mail size={24} className="group-hover:animate-pulse-glow" />
           </a>
         </div>
-        
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-[2px] h-8 bg-neon-cyan mx-auto"></div>
-          <div className="w-2 h-2 border-b-2 border-r-2 border-neon-cyan transform rotate-45 mx-auto mt-1"></div>
-        </div>
       </div>
     </section>
   );
