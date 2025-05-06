@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Github, ExternalLink, ArrowRight } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import clothesDetectionVideo from '../assets/clothesdetection.mp4';
+
 
 // Mock project data
 const projectsData = [
@@ -8,7 +10,7 @@ const projectsData = [
     id: 1,
     title: "Neural Art Generator",
     description: "AI-powered tool to transform photos into artistic styles",
-    video: "/vids/clothesdetection.mp4", // placeholder
+    video: clothesDetectionVideo, // placeholder
     github: "#",
     demo: "#",
     tags: ["Python", "TensorFlow", "React"]

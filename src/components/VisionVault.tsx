@@ -25,7 +25,7 @@ const visionProjects = [
     id: 3,
     title: "clothes detection",
     description: "Control applications using hand gestures captured via webcam",
-    video: "/vids/clothesdetection.mp4",
+    video: "src/assets/clothesdetection.mp4",
     github: "#",
     demo: "#",
     tags: ["Mediapipe", "Computer Vision", "JavaScript"]
